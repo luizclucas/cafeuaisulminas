@@ -22,11 +22,10 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Café Uai Sul Minas - Café Artesanal 100% Arabica" />
 	<meta property="og:url" content="http://www.cafeuaisulminas.com.br/" />
-	<meta property="og:site_name" content="Café Uai Sul Minas" />  
+	<meta property="og:site_name" content="Café Uai Sul Minas" />
 
-	<link rel="stylesheet" href="assets/css/generic.css">
-	<link rel="stylesheet" href="assets/css/js-image-slider.css">
-	<script src="assets/js/js-image-slider.js"></script>
+	<link rel="stylesheet" href="assets/css/w3css.css">
+
 </head>
 
 <body class="is-preload">
@@ -69,203 +68,136 @@
 		<!-- Main -->
 		<div id="main">
 			<h2> Nossas fotos </h2>
-				<div id="sliderFrame" style="margin-top:25px;">
-						<div id="slider">
-								<img src="images/Produtos/cafe_graos_250_corte.jpg" class="image fit" />
-						
-							<!-- <a class="lazyImage" href="images/image-slider-2.jpg" title="Pure Javascript. No jQuery. No Flash.">Pure JavaScript</a> -->
-							<!-- <a href="http://www.menucool.com/javascript-image-slider"><b data-src="images/image-slider-3.jpg">Image Slider</b></a> -->
-							<!-- <a class="lazyImage" href="images/image-slider-4.jpg" title="">Slide 4</a> -->
-						</div>
-						<!--thumbnails-->
-						<div id="thumbs">
-							<div class="thumb">
-								<div class="frame"><img src="images/thumb1.jpg" /></div>
-								<div class="thumb-content"><p>HTML Content</p>Thumbnails allows any HTML content</div>
-								<div style="clear:both;"></div>
-							</div>
-							<div class="thumb">
-								<div class="frame"><img src="images/thumb2.jpg" /></div>
-								<div class="thumb-content"><p>Customizable</p>Thumbnail style is customizable</div>
-								<div style="clear:both;"></div>
-							</div>
-							<div class="thumb">
-								<div class="frame"><img src="images/thumb3.jpg" /></div>
-								<div class="thumb-content"><p>Variety of Layouts</p>Just a CSS tweak.</div>
-								<div style="clear:both;"></div>
-							</div>
-							<div class="thumb">
-								<div class="frame"><img src="images/thumb4.jpg" /></div>
-								<div class="thumb-content"><p>Integration</p>Built-in functions for the thumbnails</div>
-								<div style="clear:both;"></div>
-							</div>
-						</div>
-						<!--clear above float:left elements. It is required if above #slider is styled as float:left. -->
-						<div style="clear:both;height:0;"></div>
-					</div>
-
-			<!-- Image -->
-
-			<h3>Fit</h3>
-			<span class="image fit">
-				<img src="images/pic01.jpg" alt="" />
-			</span>
-			<div class="box alt">
-				<div class="row gtr-50 gtr-uniform">
-					<div class="col-4">
-						<span class="image fit">
-							<img src="images/pic02.jpg" alt="" />
-						</span>
-					</div>
-					<div class="col-4">
-						<span class="image fit">
-							<img src="images/pic03.jpg" alt="" />
-						</span>
-					</div>
-					<div class="col-4">
-						<span class="image fit">
-							<img src="images/pic04.jpg" alt="" />
-						</span>
-					</div>
-					<!-- Break -->
-					<div class="col-4">
-						<span class="image fit">
-							<img src="images/pic04.jpg" alt="" />
-						</span>
-					</div>
-					<div class="col-4">
-						<span class="image fit">
-							<img src="images/pic02.jpg" alt="" />
-						</span>
-					</div>
-					<div class="col-4">
-						<span class="image fit">
-							<img src="images/pic03.jpg" alt="" />
-						</span>
-					</div>
-					<!-- Break -->
-					<div class="col-4">
-						<span class="image fit">
-							<img src="images/pic03.jpg" alt="" />
-						</span>
-					</div>
-					<div class="col-4">
-						<span class="image fit">
-							<img src="images/pic04.jpg" alt="" />
-						</span>
-					</div>
-					<div class="col-4">
-						<span class="image fit">
-							<img src="images/pic02.jpg" alt="" />
-						</span>
-					</div>
-				</div>
-			</div>
-
+		   <!-- Slideshow 3 -->
+		   <div class="w3-content w3-display-container">
+				<img class="mySlides" src="images/Produtos/cafe_empo_500gramas.jpg" style="width:100%">
+				<img class="mySlides" src="images/Produtos/cafe_emgraos_500gramas.jpg" style="width:100%">
+				<img class="mySlides" src="images/cafe_fundo.jpg" style="width:100%">
+			  
+				<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+				<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+			  </div>		  
 		</div>
 
-			<!-- Footer -->
-			<footer id="footer">
-				<section>
-					<div class="fields">
-						<div class="field">
-							<label for="name">Nome</label>
-							<input type="text" name="name" id="name" />
-						</div>
-						<div class="field">
-							<label for="email">Email</label>
-							<input type="text" name="email" id="email" />
-						</div>
-						<div class="field">
-							<label for="message">Mensagem</label>
-							<textarea name="message" id="message" rows="3"></textarea>
-						</div>
+		<!-- Footer -->
+		<footer id="footer">
+			<section>
+				<div class="fields">
+					<div class="field">
+						<label for="name">Nome</label>
+						<input type="text" name="name" id="name" />
 					</div>
-					<ul class="actions" style="margin-top:10px;">
+					<div class="field">
+						<label for="email">Email</label>
+						<input type="text" name="email" id="email" />
+					</div>
+					<div class="field">
+						<label for="message">Mensagem</label>
+						<textarea name="message" id="message" rows="3"></textarea>
+					</div>
+				</div>
+				<ul class="actions" style="margin-top:10px;">
+					<li>
+						<input type="submit" value="Enviar" onclick="EnviarEmail()" />
+					</li>
+				</ul>
+			</section>
+			<section class="split contact">
+				<section class="alt">
+					<h3>Endereço</h3>
+					<p>Rua Henrique Furtado Portugal, 31
+						<br /> Belo Horizonte, Brasil 30493-175 </p>
+				</section>
+				<section>
+					<h3>Whatsapp</h3>
+					<p>
+						<a href="#">(35) 99898-5993</a>
+					</p>
+				</section>
+				<section>
+					<h3>Email</h3>
+					<p>
+						<a href="mailto:atendimento@cafeuaisulminas.com.br?Subject=[Dúvida]">atendimento@cafeuaisulminas.com.br</a>
+					</p>
+				</section>
+				<section>
+					<h3>Social</h3>
+					<ul class="icons alt">
 						<li>
-							<input type="submit" value="Enviar" onclick="EnviarEmail()" />
+							<a href="https://www.facebook.com/cafeuaisulminas" target="_blank" class="icon alt fa-facebook">
+								<span class="label">Facebook</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.instagram.com/cafeuaisulminas/" target="_blank" class="icon alt fa-instagram">
+								<span class="label">Instagram</span>
+							</a>
 						</li>
 					</ul>
 				</section>
-				<section class="split contact">
-					<section class="alt">
-						<h3>Endereço</h3>
-						<p>Rua Henrique Furtado Portugal, 31
-							<br /> Belo Horizonte, Brasil 30493-175 </p>
-					</section>
-					<section>
-						<h3>Whatsapp</h3>
-						<p>
-							<a href="#">(35) 99898-5993</a>
-						</p>
-					</section>
-					<section>
-						<h3>Email</h3>
-						<p>
-							<a href="mailto:atendimento@cafeuaisulminas.com.br?Subject=[Dúvida]">atendimento@cafeuaisulminas.com.br</a>
-						</p>
-					</section>
-					<section>
-						<h3>Social</h3>
-						<ul class="icons alt">
-							<li>
-								<a href="https://www.facebook.com/cafeuaisulminas" target="_blank" class="icon alt fa-facebook">
-									<span class="label">Facebook</span>
-								</a>
-							</li>
-							<li>
-								<a href="https://www.instagram.com/cafeuaisulminas/" target="_blank" class="icon alt fa-instagram">
-									<span class="label">Instagram</span>
-								</a>
-							</li>
-						</ul>
-					</section>
-				</section>
-			</footer>
+			</section>
+		</footer>
 
-			<!-- Copyright -->
-			<div id="copyright">
-				<ul>
-					<li>CNPJ: 29.739.354/0001-34</li>
-					<li>Copyright © Café Uai Sul Minas - 2018 💖</li>
-				</ul>
-			</div>
-
+		<!-- Copyright -->
+		<div id="copyright">
+			<ul>
+				<li>CNPJ: 29.739.354/0001-34</li>
+				<li>Copyright © Café Uai Sul Minas - 2018 💖</li>
+			</ul>
 		</div>
 
-		<!-- Scripts -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.scrollex.min.js"></script>
-		<script src="assets/js/jquery.scrolly.min.js"></script>
-		<script src="assets/js/browser.min.js"></script>
-		<script src="assets/js/breakpoints.min.js"></script>
-		<script src="assets/js/util.js"></script>
-		<script src="assets/js/main.js"></script>
+	</div>
 
-		<script>
-			function EnviarEmail() {
-				if ($("#email").val() === null || $("#email").val() === "" ||
-					$("#name").val() === null || $("#name").val() === "" ||
-					$("#message").val() === null || $("#message").val() === "") {
-					swal({
-						title: 'Erro!',
-						text: 'Por favor preencha todos os campos',
-						type: 'error',
-						confirmButtonText: 'Ok'
-					});
-				}
-				else {
-					Email.send("noreply@cafeuaisulminas.com.br",
-						"atendimento@cafeuaisulminas.com.br",
-						"[Atendimento Formulário Site] - " + $("#name").val(),
-						"Email: " + $("#email").val() + " - " + $("#message").val(),
-						{ token: "a28e5c09-d6ac-47e6-8201-15cfd4ee7478" });
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
 
-					swal("Mensagem enviada com sucesso!");
-				}
+	<script>
+		 var slideIndex = 1;
+showDivs(slideIndex);
 
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+		function EnviarEmail() {
+			if ($("#email").val() === null || $("#email").val() === "" ||
+				$("#name").val() === null || $("#name").val() === "" ||
+				$("#message").val() === null || $("#message").val() === "") {
+				swal({
+					title: 'Erro!',
+					text: 'Por favor preencha todos os campos',
+					type: 'error',
+					confirmButtonText: 'Ok'
+				});
 			}
-		</script>
+			else {
+				Email.send("noreply@cafeuaisulminas.com.br",
+					"atendimento@cafeuaisulminas.com.br",
+					"[Atendimento Formulário Site] - " + $("#name").val(),
+					"Email: " + $("#email").val() + " - " + $("#message").val(),
+					{ token: "a28e5c09-d6ac-47e6-8201-15cfd4ee7478" });
+
+				swal("Mensagem enviada com sucesso!");
+			}
+
+		}
+	</script>
 </body>
 
 </html>
