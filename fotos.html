@@ -26,6 +26,16 @@
 
 	<link rel="stylesheet" href="assets/css/w3css.css">
 
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-55861017-6"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-55861017-6');
+	</script>
+
 </head>
 
 <body class="is-preload">
@@ -68,15 +78,15 @@
 		<!-- Main -->
 		<div id="main">
 			<h2> Nossas fotos </h2>
-		   <!-- Slideshow 3 -->
-		   <div class="w3-content w3-display-container">
+			<!-- Slideshow 3 -->
+			<div class="w3-content w3-display-container">
 				<img class="mySlides" src="images/Produtos/cafe_empo_500gramas.jpg" style="width:100%">
 				<img class="mySlides" src="images/Produtos/cafe_emgraos_500gramas.jpg" style="width:100%">
 				<img class="mySlides" src="images/cafe_fundo.jpg" style="width:100%">
-			  
+
 				<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
 				<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-			  </div>		  
+			</div>
 		</div>
 
 		<!-- Footer -->
@@ -158,23 +168,23 @@
 	<script src="assets/js/main.js"></script>
 
 	<script>
-		 var slideIndex = 1;
-showDivs(slideIndex);
+		var slideIndex = 1;
+		showDivs(slideIndex);
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
+		function plusDivs(n) {
+			showDivs(slideIndex += n);
+		}
 
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
+		function showDivs(n) {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			if (n > x.length) { slideIndex = 1 }
+			if (n < 1) { slideIndex = x.length }
+			for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";
+			}
+			x[slideIndex - 1].style.display = "block";
+		}
 		function EnviarEmail() {
 			if ($("#email").val() === null || $("#email").val() === "" ||
 				$("#name").val() === null || $("#name").val() === "" ||
