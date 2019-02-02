@@ -11,7 +11,6 @@
 	</noscript>
 
 	<link rel="shortcut icon" href="images/logo.png">
-	<script src="assets/js/smtp.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.29.2/dist/sweetalert2.all.min.js"></script>
 	<meta name="description" content="Originado da cidade de Machado-MG. Um Café que visa a união de um bom preço e uma qualidade excepcional, do produtor até sua casa com todo carinho e aquele gostinho da roça.">
 	<meta name="author" content="Café Uai Sul Minas">
@@ -114,7 +113,13 @@
 						</h2>
 					</header>
 					<a href="#" class="image fit">
-						<img src="images/Produtos/cafe_po_500.jpg" alt="Café Artesanal em pó 500 gramas" title="Café Artesanal em pó 500 gramas"
+						<img 
+						srcset="images/Produtos/cafe_em_po_500gramas_1024.jpg 1024w,
+						images/Produtos/cafe_em_po_500gramas_640.jpg 640w,
+						images/Produtos/cafe_em_po_500gramas_320.jpg 320w"
+						sizes="(min-width: 36em) 33.3vw,
+						100vw"/
+						src="images/Produtos/cafe_em_po_500gramas_1024.jpg" alt="Café Artesanal em pó 500 gramas" title="Café Artesanal em pó 500 gramas"
 						/>
 					</a>
 					<p style="text-align: center">Tipo Exportação
@@ -136,7 +141,13 @@
 						</h2>
 					</header>
 					<a href="#" class="image fit">
-						<img src="images/Produtos/cafe_graos_250_corte.jpg" alt="Café Artesanal em grãos 250 gramas" title="Café Artesanal em grãos 250 gramas"
+						<img 
+						srcset="images/Produtos/cafe_em_graos_250gramas_1024.jpg 1024w,
+						images/Produtos/cafe_em_graos_250gramas_640.jpg 640w,
+						images/Produtos/cafe_em_graos_250gramas_320.jpg 320w"
+						sizes="(min-width: 36em) 33.3vw,
+						100vw"/
+						src="images/Produtos/cafe_em_graos_250gramas_1024.jpg" alt="Café Artesanal em grãos 250 gramas" title="Café Artesanal em grãos 250 gramas"
 						/>
 					</a>
 					<p style="text-align: center">Tipo Exportação
@@ -230,6 +241,7 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="assets/js/smtp.js"></script>
 
 	<script>
 		function EnviarEmail() {
